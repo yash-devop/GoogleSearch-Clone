@@ -39,3 +39,5 @@ git checkout -m newBranch
 9. if CRLF error comes 
 paste this :   git config --global core.autocrlf true
 
+
+
