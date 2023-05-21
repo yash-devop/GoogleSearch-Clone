@@ -1,0 +1,41 @@
+1. git init
+2. if we already have a repo , then just clone it or remote it
+    git clone <http link here>
+
+    or
+
+    git remote add origin httplinkhere.
+
+3. now to change the master to main 
+
+    use :  git branch -m master main
+
+4. to create a new branch , 
+type : git switch -c newBranch
+
+or
+
+git checkout -m newBranch
+
+5. To push that branch to Github.com
+
+        git push --set-upstream origin yourBranchName
+
+6. to push the BRANCH or to ATTACH THE branch to the MAINbranch
+
+        git 
+
+7. to switch from BRANCH To main
+
+    git checkout main
+
+8. a. TO delete the Branch Locally :
+    git branch -d branchName
+
+   b. to delete the branch REMOTELY ( means from Github.com/repo also)
+
+    git push origin :branchName
+
+9. if CRLF error comes 
+paste this :   git config --global core.autocrlf true
+
