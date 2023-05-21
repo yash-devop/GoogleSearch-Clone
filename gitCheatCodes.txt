@@ -40,4 +40,14 @@ git checkout -m newBranch
 paste this :   git config --global core.autocrlf true
 
 
+10. how to now push  the created branch in to the MAIN/MASTER branch: 
+
+    git checkout main    -->  to put the head to the main branch
+    git pull origin main    -->  to have uptodate
+    git merge branch-name      --> to merget that branchname to the main branch.
+    git push origin main     --> push to the main branch.
+
+
+
+
 
