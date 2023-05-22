@@ -6,13 +6,13 @@ const Footer = () => {
             <div className="border-t h-[45px] flex items-center px-7 text-black/[0.61] bg-[#e4e1e1a4]">
                 <p>India</p>
             </div>
-            <div className="flex justify-between items-center px-10 h-[45px] border-t text-black/[0.61] bg-[#e4e1e1a4] border-[#c5c0c0]">
-                <div>
+            <div className="flex justify-around md:justify-between items-center h-[45px] border-t text-black/[0.61] text-[10px] md:text-base bg-[#e4e1e1a4] border-[#c5c0c0]">
+                <div className="">
                     {
                         quickLinks.map((curElem)=>{
                             return(
                                 <>
-                                    <span className="px-4">
+                                    <span className="md:px-4 px-2">
                                         {curElem}
                                     </span>
                                 </>
@@ -21,7 +21,7 @@ const Footer = () => {
                     }
                 </div>
                 
-                <div className="flex gap-6 items-center">
+                <div className="flex gap-3 md:gap-6 items-center">
                     {
                         settingMenu.map((curElem)=>{
                             return(
