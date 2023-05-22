@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Google-Search-Clone using ReactJS
+![image](https://github.com/yash-devop/GoogleSearch-Clone/assets/112558970/09507605-08c7-4a92-bd57-93e4c8d07874)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Note: Google Custom Search Engine daily provides only apx.200 API hits. So, if you search something but no results appears , then check the Browser Console for the status code 429.
+
+
+## Additional Project Scripts :
 
 ## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
