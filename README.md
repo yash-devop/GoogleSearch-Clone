@@ -3,6 +3,12 @@
 
 Note: Google Custom Search Engine daily provides only apx.200 API hits. So, if you search something but no results appears , then check the Browser Console for the status code 429.
 
+## NPM Packages used : 
+1) react-router-dom
+2) react-icons
+3) axios
+4) tailwindCSS
+5) Google Custom Search API engine: https://programmablesearchengine.google.com/
 
 ## Additional Project Scripts :
 
