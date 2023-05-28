@@ -1,7 +1,7 @@
 # Google-Search-Clone using ReactJS
 ![image](https://github.com/yash-devop/GoogleSearch-Clone/assets/112558970/09507605-08c7-4a92-bd57-93e4c8d07874)
 
-Note: Google Custom Search Engine daily provides only apx.200 API hits. So, if you search something but no results appears , then check the Browser Console for the status code 429.
+```Note: Google Custom Search Engine daily provides only apx.200 API hits. So, if you search something but no results appears , then check the Browser Console for the status code 429.```
 
 ## NPM Packages used : 
 1) react-router-dom
